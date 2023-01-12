@@ -17,15 +17,17 @@
             <label for="username">Username</label>
             <input type="text" name="username" id="username" placeholder="Enter Username"><br><br>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter Password"><br>
-
+            <input type="email" name="email" id="email" placeholder="Enter Email"><br><br>
+            <label for="psd">Password</label>
+            <input type="Password" id="psd" placeholder="Enter Password">
+            <br>
             <fieldset>
                 <legend>Gender</legend>
                 <label for="gender-m">Male</label>
                 <input type="radio" name="radio" id="gender-m">
                 <label for="gender-f">Female</label>
-                <input type="radio" name="radio" id="gender-f">
-            </fieldset><br><br>
+                <input type="radio" name="radio" id="gender-f" required>
+            </fieldset><br>
 
             <label for="document">Document Upload:</label>
             <input type="file" id="document"><br><br>
@@ -33,9 +35,22 @@
             <label for="address">Address</label>
             <textarea id="address" rows="5" cols="50"></textarea><br><br>
 
+            <select>
+                <option>Select Payment Type</option>
+                <option>Credit-card</option>
+                <option>Debit-card</option>
+                <option>Upi</option>
+            </select>
+            <br><br>
+
+            <input type="checkbox" id="cash">
+            <label for="cash"> I have a cash</label><br>
+            <input type="checkbox" id="netbanking" name="vehicle2" value="Car">
+            <label for="netbanking"> I have a net-banking</label><br><br>
+
             <input type="submit" value="Enter Details">
             <input type="reset" value="Reset">
-            
+
         </form>
         <!-- end:form -->
     </main>
