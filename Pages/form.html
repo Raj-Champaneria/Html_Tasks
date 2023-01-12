@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <!----start:Main-->
+    <main>
+        <!-- start:form -->
+        <form>
+
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter Username"><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Password"><br>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="gender-m">Male</label>
+                <input type="radio" name="radio" id="gender-m">
+                <label for="gender-f">Female</label>
+                <input type="radio" name="radio" id="gender-f">
+            </fieldset><br><br>
+
+            <label for="document">Document Upload:</label>
+            <input type="file" id="document"><br><br>
+
+            <label for="address">Address</label>
+            <textarea id="address" rows="5" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Enter Details">
+            <input type="reset" value="Reset">
+            
+        </form>
+        <!-- end:form -->
+    </main>
+    <!-- End:Main -->
+</body>
+
+</html>
